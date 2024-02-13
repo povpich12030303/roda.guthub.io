@@ -1,0 +1,40 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+#pp {
+  background: url(https://3.bp.blogspot.com/_oN2ovDH18dI/TNKOkWSZeVI/AAAAAAAAAJU/BMk5LbwR9a8/s1600/rupp.jpg);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+@media (max-width: 768) {
+  #pp {
+    min-height: 30vh;
+    min-width: 30vh;
+  }
+}
+.RUP {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  color: red;
+  text-align: center;
+  transform: translateY(-50%);
+}
+.logo {
+  position: absolute;
+  top: 2rem;
+}
+.service-box {
+  width: 100%;
+  padding: 60px 30px;
+  text-align: center;
+  transition: 5s;
+  border-radius: 5px;
+  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+}
